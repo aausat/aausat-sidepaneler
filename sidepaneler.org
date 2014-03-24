@@ -60,19 +60,21 @@
   - Skær 2 ud af 3 originale taps af med skalpel, så der kun er en tilbage - vi skal have loddet ny
     tap på underside, ca. 1-2mm fra den originale tap, se fig \ref{fig:example_nosilicon}
   - Halver den sidste originale tap
-  - Klip stykke af kobbertape
+  - Klip stykke af kobbertape, nemmest at tage et par cm eller tre
   - Rengør grundigt med sprit, alt lim skal væk
-  - Skær forsigtigt til ~0.5x0.6 cm firkant
+  - Skær forsigtigt ~0.5x0.6 cm firkant ud
   - Loddekolbe fint ved ~290-295 grader, sæt loddekolben i holder når den ikke bruges, lad lidt
     loddetin være på spidsen når den stilles i holder
   - Flux, loddetin, rengør med sprit (vatpind eller fnugfri serviet)
     - På undersiden af solcellen, der hvor ny tap skal sidde (der skal være et par millimeter
       mellem ny tap og den originale tap), lad ca halvdelen af tap sidde ud over kanten
-    - På halvdelen af tap, hvor den skal loddes
-  - Flux på tinnet på cellen, læg tap på, varm ovenpå tap, så loddetin smelter og når op omkring
-    kanten af tappen (brug mikroskop) Undgå at tappen eller tinklumper hæver sig for meget over
-    cellen, skal sørge for at den kan ligge fladt!
-  - Rengør grundigt!
+    - På halvdelen af ny tap, hvor den skal loddes
+  - Lod fortinnet tap på fortinnet celle:
+    - Flux på tinnet på cellen 
+    - Læg tap på, hold den med pincet
+    - Varm ovenpå tap, så loddetin smelter og når op omkring kanten af tappen (brug evt mikroskop) 
+    - Undgå at tappen eller tinklumper hæver sig for meget over cellen, skal sørge for at den kan ligge fladt
+  - Rengør grundigt med sprit
 
 
   #+CAPTION: Lille rengjort tap af passende størrelse og flux på cellen. Den store tap sidder med den rigtige afstand fra original tap, men er alt for stor.
