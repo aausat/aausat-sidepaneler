@@ -56,7 +56,20 @@
   Skalpeller med stort (og nyt) blad fungerer bedst.
   
   - Lav taps, find ud af hvor de skal sidde - der skal være plads på den pågældende side
-    - Se illustrationer med beskrivelse! (Tomas todo)
+    - På figur \ref{fig:example_origitapss} kan et eksempel på hvor der skal være taps. Den originale tap + 
+      kobber tappen (markeret med orange på figuren) skal være på den side hvor de to små huller i 
+      sunsensoren (markeret med rød) er placeret. Orientationen af sunsensorene kan ses på figur \ref{fig:example_sunsensor}.
+
+  #+CAPTION: Eksempel på hvilken original tap der ikke skal skæres af. Denne side passer til side B og D.
+  #+NAME: fig:example_origitapss
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning1.jpg]]
+
+  #+CAPTION: Placering og orientation af sunsensor på sidepanelerne
+  #+NAME: fig:example_sunsensor
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/sunsensor_satellite.pdf]]
+
   - Skær 2 ud af 3 originale taps af med skalpel, så der kun er en tilbage - vi skal have loddet ny
     tap på underside, ca. 1-2mm fra den originale tap, se fig \ref{fig:example_nosilicon}
   - Halver den sidste originale tap
@@ -99,38 +112,72 @@
   - Smalt kapton tape
   - Silikone: basismiddel og katalysator
   - Plastik teske til at smøre silikone ud
-  - Solceller og sidepaneler (duh)
+  - Solceller og sidepaneler
 
 ** Påmontering
   - Find sider (alu plader)
   - Rengør grundigt med ståluld og sprit, brug handsker for ikke at efterlade fedtede fingre
-  - FLYT DETTE PUNKT? Læg siden på et stykke filt (fnugfri serviet) for at holde ren
-  - Dæk med kapton tape - *INGEN LUFTBOBLER*, nemmest at tape fast til bordet, TOMAS GOES HERE. Det
-    vigtige her er at alt det overflade hvor solcellen kommer til at ligge er dækket med tape, og at
+  - Læg siden på et stykke filt (fnugfri serviet) for at holde ren
+  - Dæk med kapton tape - *INGEN LUFTBOBLER*, nemmest at tape fast til bordet, og sætte tapen på lidt 
+    ad gangen ved at gnide fingeren på tværs af tapen (se figur \ref{fig:tapesiden}). 
+    Det vigtige her er at alt det overflade hvor solcellen kommer til at ligge er dækket med tape, og at
     der ingen luftbobler er under (meget kritisk). Skær ekstra tape fra (altså ud over pladen)
-  - Lav to smalle kanter (se billede) med smalt kapton tape, kant bruges til at sikre at silikone
-    holdes lidt på plads. Igen nemmest at tape fast til bordet og skære overskydende af. OBS:
-    Billede her har aausat2 solcelle til at ligge på for at vise hvor den skal være og kanterne er
-    meget brede
-  - Lav sidste kanter og vippemekanisme til solcelle - altså lad kanten dække lidt af solcellen og
-    skær ind, så cellen kan vippes op
-  - Sæt også tape på hjørner, så det følger solcellen (ses ikke på billede, siden aausat2 celler er
-    mindre..). Det er meningen, at silikonen kun skal ligge under cellerne (må godt gå ud over
+
+  #+CAPTION: Hvordan kapton tape skal placeres på siden 
+  #+NAME: fig:tapesiden
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning2.jpg]]
+  
+  - Lav to smalle kanter (se figur \ref{fig:kantertape}) med smalt kapton tape, kant bruges til at sikre at silikone
+    holdes lidt på plads. Igen nemmest at tape fast til bordet og skære overskydende af.
+  
+  #+CAPTION: Kapton tape kant i siderne
+  #+NAME: fig:kantertape
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning3.jpg]]
+  
+  - Lav sidste kanter og vippemekanisme til solcelle (se figur \ref{fig:vippemeka}) - altså lad kanten dække lidt af solcellen og
+    skær ind (langs de røde linjer på figuren), så cellen kan vippes op
+
+  #+CAPTION: Vippemekanisme (skær langs røde striblede linjer)
+  #+NAME: fig:vippemeka
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning4.jpg]]
+  
+  - Sæt også tape på hjørner, så det følger solcellen (se figur \ref{fig:kanthjorne}). Det er meningen, at silikonen kun skal ligge under cellerne (må godt gå ud over
     midten over til den anden celle)
-  - Lav silikone
-  - Påfør silikone, glat ud for at sikre alt er dækket, undgå "mørke skygger" (lidt for meget
-    silikone på billede...)
-  - Vip solcelle ned oven på, læg vægt forsigtigt på
+
+  #+CAPTION: Kapton tape kant i hjørnerne
+  #+NAME: fig:kanthjorne
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning5.jpg]]
+
+  - Lav silikone (se punkt Forberedelse af silikone)
+  - Påfør silikone, glat ud for at sikre alt er dækket, undgå "mørke skygger", se figur \ref{fig:paaforesilikone} (lidt for meget
+    silikone på billede)
+
+  #+CAPTION: Påførelse af silikone
+  #+NAME: fig:paaforesilikone
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning6.jpg]]
+
+  - Vip solcelle ned oven på, læg vægt forsigtigt på (se figur \ref{fig:7})
+
+  #+CAPTION: Sæt forsigtigt vægt på
+  #+NAME: fig:7
+  #+ATTR_LATEX: :width 0.5\textwidth
+  [[./images/tegning7.jpg]]
+
   - Vacuum ned til under 100µ bar
   - Sæt til hærdning (stuetemperatur) i en nats tid / døgns tid
-  - Efter hærdning, løft vægten forsigtigt af (løft ikke direkte op, TOMAS TIPS)
+  - Efter hærdning, løft vægten forsigtigt af (løft ikke direkte op, men vrid den lige så stille af.)
   - Skær al silikone og tape af lige så stille (vær forsigtig! ingen stress på cellen!) af med en
     skalpel
-    - Al silikone som ikke sidder under cellen eller under taps skal af, lad ca. en millimeter være
+    - Al silikone som ikke sidder under cellen eller under taps skal af, lad ca. en millimeter tape være
       omkring cellen
     - Silikone under og på taps skal også af, MEN: tape under taps skal blive siddende!
     - Forsøg at undgå at løfte direkte opad når silikone/tape hives af, men mere sidelæns, ellers
-      risikerer du at cellen går i stykker..
+      risikerer du at cellen går i stykker.
   - Rens med sprit på en serviet - men vær forsigtig. Brug ikke for meget sprit, da det opløser
     silikonen!
 
