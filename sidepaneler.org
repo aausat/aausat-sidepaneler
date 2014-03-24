@@ -60,7 +60,7 @@
   - Skær 2 ud af 3 originale taps af med skalpel, så der kun er en tilbage - vi skal have loddet ny
     tap på underside, ca. 1-2mm fra den originale tap, se fig \ref{fig:example_nosilicon}
   - Halver den sidste originale tap
-  - Klip stykke af kobbertape, nemmest at tage et par cm eller tre
+  - Klip stykke af kobbertape, nemmest at tage nogle cm
   - Rengør grundigt med sprit, alt lim skal væk
   - Skær forsigtigt ~0.5x0.6 cm firkant ud
   - Loddekolbe fint ved ~290-295 grader, sæt loddekolben i holder når den ikke bruges, lad lidt
