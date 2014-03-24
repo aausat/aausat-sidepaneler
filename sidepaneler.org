@@ -49,7 +49,7 @@
   #+CAPTION: Eksempel på solcelle med monteret tap
   #+NAME: fig:example_nosilicon
   #+ATTR_LATEX: :width 0.6\textwidth
-  [[./example_nosilicon.jpg]]
+  [[./images/example_nosilicon.jpg]]
 
   *Når der skæres taps af eller halveres:*\\
   Læg IKKE vægt på skalpellen, det mindste vægt risikerer at ødelægge cellen. Hav tålmodighed!
@@ -78,17 +78,17 @@
   #+CAPTION: Lille rengjort tap af passende størrelse og flux på cellen. Den store tap sidder med den rigtige afstand fra original tap, men er alt for stor.
   #+NAME: fig:example_nosilicon
   #+ATTR_LATEX: :width 0.6\textwidth
-  [[./tap_fluxoncell.jpg]]
+  [[./images/tap_fluxoncell.jpg]]
   
   #+CAPTION: Loddetin på tap og celle, rengjort
   #+NAME: fig:tap_solderoncellandtap
   #+ATTR_LATEX: :width 0.6\textwidth
-  [[./tap_solderoncellandtap.jpg]]
+  [[./images/tap_solderoncellandtap.jpg]]
     
   #+CAPTION: Tap loddet på
   #+NAME: fig:tap_soldered
   #+ATTR_LATEX: :width 0.6\textwidth
-  [[./tap_soldered.jpg]]
+  [[./images/tap_soldered.jpg]]
 
 
 * Påmontering af celle på panel
