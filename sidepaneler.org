@@ -49,7 +49,7 @@
 
   #+CAPTION: Eksempel på aausat3 solcelle med monteret tap og kapton
   #+NAME: fig:example_nosilicon
-  #+ATTR_LATEX: :width 0.6\textwidth
+  #+ATTR_LATEX: :width 0.5\textwidth
   [[./images/example_nosilicon.jpg]]
 
   *Når der skæres taps af eller halveres:*\\
@@ -63,7 +63,7 @@
 
   #+CAPTION: Eksempel på hvilken original tap der ikke skal skæres af. Denne side passer til side B og D.
   #+NAME: fig:example_origitapss
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning1.jpg]]
 
   #+CAPTION: Placering og orientation af sunsensor på sidepanelerne
@@ -156,7 +156,7 @@
 
   #+CAPTION: Hvordan kapton tape skal placeres på siden 
   #+NAME: fig:tapesiden
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.6\textwidth
   [[./images/tegning2.jpg]]
   
   - Lav to smalle kanter (se figur \ref{fig:kantertape}) med smalt kapton tape, kant bruges til at
@@ -165,7 +165,7 @@
   
   #+CAPTION: Kapton tape kant i siderne
   #+NAME: fig:kantertape
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning3.jpg]]
   
   - Lav sidste kanter og vippemekanisme til solcelle (se figur \ref{fig:vippemeka}) - altså lad
@@ -174,7 +174,7 @@
 
   #+CAPTION: Vippemekanisme (skær langs røde striblede linjer)
   #+NAME: fig:vippemeka
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning4.jpg]]
   
   - Sæt også tape på hjørner, så det følger solcellen (se figur \ref{fig:kanthjorne}). Det er
@@ -183,7 +183,7 @@
 
   #+CAPTION: Kapton tape kant i hjørnerne
   #+NAME: fig:kanthjorne
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning5.jpg]]
 
   - Lav silikone (se punkt [[Forberedelse af silikone]])
@@ -192,14 +192,14 @@
 
   #+CAPTION: Påførelse af silikone
   #+NAME: fig:paaforesilikone
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning6.jpg]]
 
   - Vip solcelle ned oven på, læg vægt forsigtigt på (se figur \ref{fig:7})
 
   #+CAPTION: Sæt forsigtigt vægt på
   #+NAME: fig:7
-  #+ATTR_LATEX: :width 0.5\textwidth
+  #+ATTR_LATEX: :width 0.7\textwidth
   [[./images/tegning7.jpg]]
 
   - Vacuum ned til under 100µ bar
