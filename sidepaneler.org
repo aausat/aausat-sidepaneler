@@ -3,14 +3,14 @@
 * Export settings                                                  :noexport:
 #+TITLE: AAUSAT sidepanel guide
 #+AUTHOR: Tomas Trillingsgaard, Mathias Tausen
-#+EMAIL: [ttril10|mtause10]@student.aau.dk
-#+DATE: [2014-03-20 Thu]
+#+EMAIL: [ttrill10|mtause10]@student.aau.dk
+#+DATE: [2014-03-25 Tue]
 #+DESCRIPTION: 
 #+KEYWORDS:
 #+LANGUAGE:  en
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t ':t
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t ':t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:t tags:nil
-#+OPTIONS:   c:t author:t creator:nil email:t timestamp:t d:t e:nil f:t
+#+OPTIONS:   c:t author:nil creator:nil email:t timestamp:t d:t e:nil f:t
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
@@ -35,6 +35,7 @@
 * Klargøring af solcelle (taps)
 ** Du skal bruge
   - Lille loddekolbe med lille flade (men ikke spids)
+  - Mikroskop
   - Kobber tape
   - Fnugfri servietter (små firkantede)
   - Vatpinde
@@ -46,7 +47,7 @@
   Sørg for at holde alt rent med sprit! (al flux skal væk efter hver lodning, alt der loddes på skal
   være rengjort inden lodning)\\
 
-  #+CAPTION: Eksempel på solcelle med monteret tap
+  #+CAPTION: Eksempel på aausat3 solcelle med monteret tap og kapton
   #+NAME: fig:example_nosilicon
   #+ATTR_LATEX: :width 0.6\textwidth
   [[./images/example_nosilicon.jpg]]
@@ -56,7 +57,7 @@
   Skalpeller med stort (og nyt) blad fungerer bedst.
   
   - Lav taps, find ud af hvor de skal sidde - der skal være plads på den pågældende side
-    - På figur \ref{fig:example_origitapss} kan et eksempel på hvor der skal være taps. Den originale tap + 
+    - På figur \ref{fig:example_origitapss} er et eksempel på hvor der skal være taps. Den originale tap + 
       kobber tappen (markeret med orange på figuren) skal være på den side hvor de to små huller i 
       sunsensoren (markeret med rød) er placeret. Orientationen af sunsensorene kan ses på figur \ref{fig:example_sunsensor}.
 
@@ -71,41 +72,68 @@
   [[./images/sunsensor_satellite.pdf]]
 
   - Skær 2 ud af 3 originale taps af med skalpel, så der kun er en tilbage - vi skal have loddet ny
-    tap på underside, ca. 1-2mm fra den originale tap, se fig \ref{fig:example_nosilicon}
-  - Halver den sidste originale tap
-  - Klip stykke af kobbertape, nemmest at tage nogle cm
-  - Rengør grundigt med sprit, alt lim skal væk
-  - Skær forsigtigt ~0.5x0.6 cm firkant ud
-  - Loddekolbe fint ved ~290-295 grader, sæt loddekolben i holder når den ikke bruges, lad lidt
-    loddetin være på spidsen når den stilles i holder
-  - Flux, loddetin, rengør med sprit (vatpind eller fnugfri serviet)
-    - På undersiden af solcellen, der hvor ny tap skal sidde (der skal være et par millimeter
-      mellem ny tap og den originale tap), lad ca halvdelen af tap sidde ud over kanten
-    - På halvdelen af ny tap, hvor den skal loddes
-  - Lod fortinnet tap på fortinnet celle:
-    - Flux på tinnet på cellen 
-    - Læg tap på, hold den med pincet
-    - Varm ovenpå tap, så loddetin smelter og når op omkring kanten af tappen (brug evt mikroskop) 
-    - Undgå at tappen eller tinklumper hæver sig for meget over cellen, skal sørge for at den kan ligge fladt
-  - Rengør grundigt med sprit
-
-
-  #+CAPTION: Lille rengjort tap af passende størrelse og flux på cellen. Den store tap sidder med den rigtige afstand fra original tap, men er alt for stor.
-  #+NAME: fig:example_nosilicon
-  #+ATTR_LATEX: :width 0.6\textwidth
-  [[./images/tap_fluxoncell.jpg]]
-  
-  #+CAPTION: Loddetin på tap og celle, rengjort
-  #+NAME: fig:tap_solderoncellandtap
-  #+ATTR_LATEX: :width 0.6\textwidth
-  [[./images/tap_solderoncellandtap.jpg]]
+    tap på underside, ca. 1-2mm fra den originale tap, se fig \ref{fig:example_nosilicon} og
+    \ref{fig:tap_soldered2}
     
-  #+CAPTION: Tap loddet på
-  #+NAME: fig:tap_soldered
+  - Halver den sidste originale tap, så den bliver ligesom på fig \ref{fig:example_nosilicon}. Se
+    note ovenfor (læg ikke vægt på skalpellen, lad tyngdekraften klare det)
+    
+  - Skær stykke af kobbertape (m. skalpel), nemmest at tage nogle cm. Undgå at tapen bliver bukket.
+    
+  - Rengør tapen grundigt med sprit, alt lim skal væk
+    
+  - Skær forsigtigt ~0.5x0.6cm firkant ud - undgå at bukke den. Se fig \ref{fig:cleantap}
+
+  #+CAPTION: Ren tap af god størrelse
+  #+NAME: fig:cleantap
   #+ATTR_LATEX: :width 0.6\textwidth
-  [[./images/tap_soldered.jpg]]
+  [[./images/cleantap.jpg]]
+    
+  - Loddekolbe fint ved ~290-295 grader, sæt loddekolben i holder når den ikke bruges, lad lidt
+    loddetin være på spidsen når den stilles i holder.
+    
+  - En dråbe flux på, loddetin på og rengør derefter med sprit (vatpind eller fnugfri serviet) følgende:
+    - På halvdelen af ny tap, hvor den skal loddes, se fig \ref{fig:tap_withsolder}
+    - På undersiden af solcellen, der hvor ny tap skal sidde (der skal være et par millimeter mellem
+      ny tap og den originale tap), ca halvdelen af tap skal sidde ud over kanten. Se fig
+      \ref{fig:tap_solderoncellandtap2}
+      
+  #+CAPTION: Rengjort tap med loddetin
+  #+NAME: fig:tap_withsolder
+  #+ATTR_LATEX: :width 0.6\textwidth
+  [[./images/tap_withsolder.jpg]]
 
+  #+CAPTION: Loddetin på tap og celle, rengjort
+  #+NAME: fig:tap_solderoncellandtap2
+  #+ATTR_LATEX: :width 0.6\textwidth
+  [[./images/tap_solderoncellandtap2.jpg]]  
+      
+  - Lod fortinnet tap på fortinnet celle
+    - En dråbe flux på tinnet på cellen 
+    - Læg tap på, hold den med pincet (se fig \ref{fig:tap_inplace})
+    - Varm ovenpå tap, så loddetin smelter og når op omkring kanten af tappen - nemmere at se hvad
+      man laver med mikroskop. Undgå at varme for længe, og undgå at trykke særlig meget med
+      loddekolben - for meget varme ødelægger cellen og for meget tryk knækker den
+    - Undgå at tappen eller tinklumper hæver sig for meget over cellen, skal sørge for at den kan
+      ligge fladt når cellen skal lægges på silikonen, se fig \ref{fig:tap_flat}
 
+  #+CAPTION: Tap placeret på celle, flux imellem
+  #+NAME: fig:tap_inplace
+  #+ATTR_LATEX: :width 0.6\textwidth
+  [[./images/tap_inplace.jpg]]
+  
+  #+CAPTION: Påloddet tap fra siden - vigtigt at den ligger flat mod cellen og at der ikke er klumper af tin oven på
+  #+NAME: fig:tap_flat
+  #+ATTR_LATEX: :width 0.6\textwidth
+  [[./images/tap_flat.jpg]]
+      
+  - Rengør grundigt med sprit, se fig \ref{fig:tap_soldered2}
+
+  #+CAPTION: Tap loddet på (bemærk at det er en aausat2 solcelle)
+  #+NAME: fig:tap_soldered2
+  #+ATTR_LATEX: :width 0.6\textwidth
+  [[./images/tap_soldered2.jpg]]
+    
 * Påmontering af celle på panel
 ** Du skal bruge
   - Bredt kapton tape
@@ -116,8 +144,11 @@
 
 ** Påmontering
   - Find sider (alu plader)
+
   - Rengør grundigt med ståluld og sprit, brug handsker for ikke at efterlade fedtede fingre
+
   - Læg siden på et stykke filt (fnugfri serviet) for at holde ren
+
   - Dæk med kapton tape - *INGEN LUFTBOBLER*, nemmest at tape fast til bordet, og sætte tapen på lidt 
     ad gangen ved at gnide fingeren på tværs af tapen (se figur \ref{fig:tapesiden}). 
     Det vigtige her er at alt det overflade hvor solcellen kommer til at ligge er dækket med tape, og at
@@ -128,33 +159,36 @@
   #+ATTR_LATEX: :width 0.5\textwidth
   [[./images/tegning2.jpg]]
   
-  - Lav to smalle kanter (se figur \ref{fig:kantertape}) med smalt kapton tape, kant bruges til at sikre at silikone
-    holdes lidt på plads. Igen nemmest at tape fast til bordet og skære overskydende af.
+  - Lav to smalle kanter (se figur \ref{fig:kantertape}) med smalt kapton tape, kant bruges til at
+    sikre at silikone holdes lidt på plads. Igen nemmest at tape fast til bordet og skære
+    overskydende af.
   
   #+CAPTION: Kapton tape kant i siderne
   #+NAME: fig:kantertape
   #+ATTR_LATEX: :width 0.5\textwidth
   [[./images/tegning3.jpg]]
   
-  - Lav sidste kanter og vippemekanisme til solcelle (se figur \ref{fig:vippemeka}) - altså lad kanten dække lidt af solcellen og
-    skær ind (langs de røde linjer på figuren), så cellen kan vippes op
+  - Lav sidste kanter og vippemekanisme til solcelle (se figur \ref{fig:vippemeka}) - altså lad
+    kanten dække lidt af solcellen og skær ind (langs de røde linjer på figuren), så cellen kan
+    vippes op
 
   #+CAPTION: Vippemekanisme (skær langs røde striblede linjer)
   #+NAME: fig:vippemeka
   #+ATTR_LATEX: :width 0.5\textwidth
   [[./images/tegning4.jpg]]
   
-  - Sæt også tape på hjørner, så det følger solcellen (se figur \ref{fig:kanthjorne}). Det er meningen, at silikonen kun skal ligge under cellerne (må godt gå ud over
-    midten over til den anden celle)
+  - Sæt også tape på hjørner, så det følger solcellen (se figur \ref{fig:kanthjorne}). Det er
+    meningen, at silikonen kun skal ligge under cellerne (må godt gå ud over midten over til den
+    anden celle)
 
   #+CAPTION: Kapton tape kant i hjørnerne
   #+NAME: fig:kanthjorne
   #+ATTR_LATEX: :width 0.5\textwidth
   [[./images/tegning5.jpg]]
 
-  - Lav silikone (se punkt Forberedelse af silikone)
-  - Påfør silikone, glat ud for at sikre alt er dækket, undgå "mørke skygger", se figur \ref{fig:paaforesilikone} (lidt for meget
-    silikone på billede)
+  - Lav silikone (se punkt [[Forberedelse af silikone]])
+  - Påfør silikone, glat ud for at sikre alt er dækket, undgå "mørke skygger", se figur
+    \ref{fig:paaforesilikone} (lidt for meget silikone på billede)
 
   #+CAPTION: Påførelse af silikone
   #+NAME: fig:paaforesilikone
@@ -171,12 +205,12 @@
   - Vacuum ned til under 100µ bar
   - Sæt til hærdning (stuetemperatur) i en nats tid / døgns tid
   - Efter hærdning, løft vægten forsigtigt af (løft ikke direkte op, men vrid den lige så stille af.)
-  - Skær al silikone og tape af lige så stille (vær forsigtig! ingen stress på cellen!) af med en
+  - Skær al silikone og tape af lige så stille (vær forsigtig! ingen stress på cellen!) med en
     skalpel
     - Al silikone som ikke sidder under cellen eller under taps skal af, lad ca. en millimeter tape være
       omkring cellen
-    - Silikone under og på taps skal også af, MEN: tape under taps skal blive siddende!
-    - Forsøg at undgå at løfte direkte opad når silikone/tape hives af, men mere sidelæns, ellers
+    - Silikone under og på taps skal også af, *MEN*: tape under taps skal blive siddende!
+    - Undgå at løfte direkte opad når silikone/tape hives af, men mere sidelæns, ellers
       risikerer du at cellen går i stykker.
   - Rens med sprit på en serviet - men vær forsigtig. Brug ikke for meget sprit, da det opløser
     silikonen!
@@ -185,13 +219,16 @@
 ** Forberedelse af silikone
    HANDSKER!! Skal gå hurtigt lige så snart basis og katalysator er blandet!
 
-   Ved sluk af vacuum: sluk, tøm forsigtigt ved at lette stik
+   Ved sluk af vacuum: sluk, let forsigtigt tryk ved at lette stik
    - Rør basismiddel igennem
    - Vej 3.5g basismiddel af i målebæger
    - Tilføj katalysator (giftigt stads) i forholdet 1:40 (dvs 0.0875g hvis du rammer 3.5g præcist)
      med sprøjte, stille og roligt
    - Rør grundigt
-   - Vacuum til under 100µ bar (et minuts tid)
+   - Vacuum til under 100µ bar
     
-* Ledninger
-  Find alle målene, lav de rigtige længder og fortin alle ender (skal passe med bredden af taps, altså ~3mm or so, brug tinbad) forsigtigt med instrument til det.
+* Ledninger                                                        :noexport:
+  /Nothing here yet.../
+
+  Find alle målene, lav de rigtige længder og fortin alle ender (skal passe med bredden af taps,
+  altså ~3mm or so, brug tinbad) forsigtigt med instrument til det.
