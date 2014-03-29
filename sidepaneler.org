@@ -90,7 +90,8 @@
   [[./images/cleantap.jpg]]
     
   - Loddekolbe fint ved ~290-295 grader, sæt loddekolben i holder når den ikke bruges, lad lidt
-    loddetin være på spidsen når den stilles i holder.
+    loddetin være på spidsen når den stilles i holder. Det er nemmere at få loddet ordentligt, hvis
+    cellen lægges på en varmeplade (evt med et stykke filt imellem) på ~80 grader.
     
   - En dråbe flux på, loddetin på og rengør derefter med sprit (vatpind eller fnugfri serviet) følgende:
     - På halvdelen af ny tap, hvor den skal loddes, se fig \ref{fig:tap_withsolder}
